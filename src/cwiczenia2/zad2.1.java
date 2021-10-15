@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class zad1 {
+public class zad21 {
     public static int factorial(int n)
     {
         int wynik = 1;

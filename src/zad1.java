@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class Zad1
-{
+public class zad1 {
     public static double factorial(int n)
     {
         double wynik = 1;
@@ -14,8 +13,8 @@ public class Zad1
 
     public static void main(String[] args)
     {
-	    double wynik = 0;
-	    double wynik2 = 1;
+	    // double wynik = 0;
+	    // double wynik2 = 1;
         Scanner in = new Scanner(System.in);
         System.out.println("Podaj n");
         int n = in.nextInt();
@@ -53,6 +52,6 @@ public class Zad1
         System.out.println(liczby[0]);
         //System.out.println(wynik);
         //System.out.println(wynik2);
+        in.close();
     }
 }
-

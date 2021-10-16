@@ -36,14 +36,17 @@ public class zad11 {
             // if(pw == 0 && pierw % 2 == 0){
             //     wynik += 1;
             // }
+
             // f
             // if((i + 1) % 2 == 1 && liczby[i] % 2 == 0){
             //     wynik += 1;
             // }
+
             // g
             // if(liczby[i] % 2 == 1 && liczby[i] > 0){
             //     wynik += 1;
             // }
+
             // h
             // if(Math.abs(liczby[i]) < Math.pow(i + 1, 2)){
             //     wynik += 1;
@@ -55,6 +58,7 @@ public class zad11 {
         //         wynik += 1;
         //     }
         // }
+        
         // e
         // for(int i = 0; i < n; i++){
         //     if(Math.pow(2, i) < liczby[i] && liczby[i] < factorial(i)){

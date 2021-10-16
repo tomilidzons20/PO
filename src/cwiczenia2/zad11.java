@@ -31,10 +31,11 @@ public class zad11 {
             // }
 
             // c
-            // double pierw = Math.sqrt(liczba);
-            // if((pierw - Math.floor(pierw)) == 0){
-            //     wynik += 1;
-            // }
+            double pierw = Math.sqrt(liczby[i]);
+            double pw = pierw - Math.floor(pierw);
+            if(pw == 0 && pierw % 2 == 0){
+                wynik += 1;
+            }
             // f
             // if((i + 1) % 2 == 1 && liczby[i] % 2 == 0){
             //     wynik += 1;

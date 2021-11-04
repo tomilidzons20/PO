@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class zad2 {
+public class c3zad2 {
 
     public static void generuj(int tab[], int n, int minWartosc, int maxWartosc){
         for(int i = 0; i < n; i++){

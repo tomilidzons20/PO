@@ -1,7 +1,6 @@
-package cwiczenia2;
 import java.util.Scanner;
 
-public class zad11 {
+public class c2zad11 {
     public static int factorial(int n)
     {
         int wynik = 1;

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class zad1 {
+public class c3zad1 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         System.out.println("Podaj 1 <= n <= 100");
@@ -21,10 +21,10 @@ public class zad1 {
             System.out.println(liczby[i]);
         }
         //podpunkty
-        int wynik1 = 0;
-        int wynik2 = 0;
-        int wynik3 = 0;
-        int naj = liczby[0];
+        // int wynik1 = 0;
+        // int wynik2 = 0;
+        // int wynik3 = 0;
+        // int naj = liczby[0];
         System.out.println();
         for(int i = 0; i < n; i++){
             // a

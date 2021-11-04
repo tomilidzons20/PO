@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class zad3 {
+public class c3zad3 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         System.out.println("Podaj 1 <= m,n,k <= 10");

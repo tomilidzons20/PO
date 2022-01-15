@@ -1,3 +1,5 @@
+package cwiczenia2;
+
 import java.util.Scanner;
 
 public class c2zad3 {

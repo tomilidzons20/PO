@@ -1,3 +1,5 @@
+package cwiczenia5;
+
 import java.util.ArrayList;
 
 public class c5zad1{

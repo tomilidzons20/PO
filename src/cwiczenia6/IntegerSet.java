@@ -1,3 +1,5 @@
+package cwiczenia6;
+
 public class IntegerSet {
     boolean[] table;
 

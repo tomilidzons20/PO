@@ -1,3 +1,5 @@
+package cwiczenia6;
+
 public class c6zad1 {
     public static void main(String[] args){
         RachunekBankowy saver1 = new RachunekBankowy(2000);

@@ -1,3 +1,5 @@
+package cwiczenia6;
+
 public class c6zad2 {
     public static void main(String[] args){
         IntegerSet tab1 = new IntegerSet();

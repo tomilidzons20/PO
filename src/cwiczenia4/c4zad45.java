@@ -1,3 +1,5 @@
+package cwiczenia4;
+
 // import java.math.BigInteger;
 import java.math.RoundingMode;
 import java.math.BigDecimal;

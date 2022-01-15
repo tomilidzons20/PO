@@ -1,3 +1,5 @@
+package cwiczenia6;
+
 public class RachunekBankowy {
 
     static double rocznaStopaProcentowa;

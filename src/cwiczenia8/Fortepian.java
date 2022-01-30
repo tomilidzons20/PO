@@ -6,6 +6,7 @@ class Fortepian extends Instrument{
         super(producent, rokProdukcji);
     }
 
+    @Override
     public String dzwiek(){
         return "piu piu";
     }

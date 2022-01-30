@@ -33,6 +33,6 @@ class ArrayAlg{
             }
         }
 
-        return new Pair<String> (min, max);
+        return new Pair<> (min, max);
     }
 }

@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class pliczek {
     public static void main(String[] args){
         try{
-            File myObj = new File("tekst.txt");
+            File myObj = new File("po-gr4-jakubpietkiewicz/tekst.txt");
             Scanner in = new Scanner(myObj);
             ArrayList<String> text = new ArrayList<String>();
             while(in.hasNextLine()){

@@ -20,10 +20,14 @@ abstract class Instrument {
 
     public abstract String dzwiek();
 
-    public boolean equals(){
-        return true;
+    public boolean equals(Instrument instr){
+        if(producent == instr.producent && rokProdukcji == instr.rokProdukcji){
+            return true;
+        }
+        return false;
     }
 
+    @Override
     public String toString(){
         return producent + ", rp: " + rokProdukcji + ", dzwiek: "+ dzwiek();
     }

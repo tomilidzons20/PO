@@ -11,7 +11,7 @@ public class Osoba implements Cloneable, Comparable<Osoba>{
     }
 
     public int compareTo(Osoba os){
-        if(nazwisko == os.nazwisko){
+        if(nazwisko.equals(os.nazwisko)){
             if(dataUrodzenia == os.dataUrodzenia){
                 return 1;
             }

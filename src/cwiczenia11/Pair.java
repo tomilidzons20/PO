@@ -14,6 +14,7 @@ public class Pair<T>{
     public T getFirst(){
         return first;
     }
+
     public T getSecond(){
         return second;
     }
@@ -21,9 +22,11 @@ public class Pair<T>{
     public void setFirst(T newValue){
         first = newValue;
     }
+
     public void setSecond(T newValue){
         second = newValue;
     }
+
     public void swap(){
         T tmp = first;
         first = second;

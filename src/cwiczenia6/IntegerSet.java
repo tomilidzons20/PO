@@ -35,6 +35,7 @@ public class IntegerSet {
         table[el - 1] = false;
     }
 
+    @Override
     public String toString(){
         String wynik = "";
         for(int i = 0; i < 100; i++){

@@ -6,6 +6,7 @@ class Flet extends Instrument{
         super(producent, rokProdukcji);
     }
 
+    @Override
     public String dzwiek(){
         return "fiu fiu";
     }

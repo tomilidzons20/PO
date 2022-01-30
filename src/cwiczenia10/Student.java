@@ -20,6 +20,7 @@ public class Student extends Osoba{
         return 0;
     }
 
+    @Override
     public Object clone() throws CloneNotSupportedException{
         Student st = (Student)super.clone();
         return st;

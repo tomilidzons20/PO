@@ -34,6 +34,7 @@ class Student extends Osoba{
         return kierunek;
     }
 
+    @Override
     public String toString(){
         return getNazwisko() + ", " + getKierunek() + ", " + kierunek;
     }
@@ -51,6 +52,7 @@ class Nauczyciel extends Osoba{
         return pensja;
     }
 
+    @Override
     public String toString(){
         return getNazwisko() + ", " + pensja + ", " + getRokUrodzenia();
     }

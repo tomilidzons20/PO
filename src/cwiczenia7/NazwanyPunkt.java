@@ -7,6 +7,7 @@ public class NazwanyPunkt extends Punkt{
         this.name = name;
     }
 
+    @Override
     public void show()
     {
         System.out.println(name + ":<" + x() + ", " + y() + ">");

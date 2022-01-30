@@ -6,6 +6,7 @@ class Skrzypce extends Instrument{
         super(producent, rokProdukcji);
     }
 
+    @Override
     public String dzwiek(){
         return "skrr skrr";
     }
